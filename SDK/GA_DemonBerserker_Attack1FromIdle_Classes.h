@@ -1,0 +1,25 @@
+#pragma once 
+#include <GA_DemonBerserker_Attack1FromIdle_Structs.h>
+ 
+ 
+ 
+// BlueprintGeneratedClass GA_DemonBerserker_Attack1FromIdle.GA_DemonBerserker_Attack1FromIdle_C
+// Size: 0x6E1(Inherited: 0x6C9)
+struct UGA_DemonBerserker_Attack1FromIdle_C : UGA_MonsterMeleeAttackBaseWithOptions_C
+{
+	char pad_1737[7];  // 0x6C9 (0x6C9)
+	struct FPointerToUberGraphFrame UberGraphFrame;  // 0x6D0 (0x6D0)
+	struct FGameplayTag Event Tag;  // 0x6D8 (0x6D8)
+	char pad_1760_1 : 7;  // 0x6E0 (0x6E0)
+	bool Combo Triggered : 1;  // 0x6E0 (0x6E0)
+
+
+	void EventReceived_C72931E7494CC472072042A62E726BE3(struct FGameplayEventData Payload); // Function GA_DemonBerserker_Attack1FromIdle.GA_DemonBerserker_Attack1FromIdle_C.EventReceived_C72931E7494CC472072042A62E726BE3
+	void AbilityActivated(struct FGameplayEventData TriggerEventData); // Function GA_DemonBerserker_Attack1FromIdle.GA_DemonBerserker_Attack1FromIdle_C.AbilityActivated
+	void K2_OnEndAbility(bool bWasCancelled); // Function GA_DemonBerserker_Attack1FromIdle.GA_DemonBerserker_Attack1FromIdle_C.K2_OnEndAbility
+	void ExecuteUbergraph_GA_DemonBerserker_Attack1FromIdle(int32_t EntryPoint); // Function GA_DemonBerserker_Attack1FromIdle.GA_DemonBerserker_Attack1FromIdle_C.ExecuteUbergraph_GA_DemonBerserker_Attack1FromIdle
+}; 
+ 
+ 
+
+

@@ -1,0 +1,50 @@
+#include "pch.h"
+#include "SDK.h"
+
+void ABP_Zombie_Common_C::UserConstructionScript(){
+
+	static UFunction* fn = 0;
+ 	if(!fn)
+		fn = (UFunction*)UObject::FindObject<UFunction>("Function BP_Zombie_Common.BP_Zombie_Common_C.UserConstructionScript");
+
+	FUserConstructionScript parms{};	
+
+	ProcessEvent(fn, &parms);
+}
+
+void ABP_Zombie_Common_C::ReceiveBeginPlay(){
+
+	static UFunction* fn = 0;
+ 	if(!fn)
+		fn = (UFunction*)UObject::FindObject<UFunction>("Function BP_Zombie_Common.BP_Zombie_Common_C.ReceiveBeginPlay");
+
+	FReceiveBeginPlay parms{};	
+
+	ProcessEvent(fn, &parms);
+}
+
+void ABP_Zombie_Common_C::GameplayTagUpdated(struct FGameplayTag InGameplayTag, int32_t InCount){
+
+	static UFunction* fn = 0;
+ 	if(!fn)
+		fn = (UFunction*)UObject::FindObject<UFunction>("Function BP_Zombie_Common.BP_Zombie_Common_C.GameplayTagUpdated");
+
+	FGameplayTagUpdated parms{};	
+	parms.InGameplayTag = InGameplayTag;
+	parms.InCount = InCount;
+
+	ProcessEvent(fn, &parms);
+}
+
+void ABP_Zombie_Common_C::ExecuteUbergraph_BP_Zombie_Common(int32_t EntryPoint){
+
+	static UFunction* fn = 0;
+ 	if(!fn)
+		fn = (UFunction*)UObject::FindObject<UFunction>("Function BP_Zombie_Common.BP_Zombie_Common_C.ExecuteUbergraph_BP_Zombie_Common");
+
+	FExecuteUbergraph_BP_Zombie_Common parms{};	
+	parms.EntryPoint = EntryPoint;
+
+	ProcessEvent(fn, &parms);
+}
+

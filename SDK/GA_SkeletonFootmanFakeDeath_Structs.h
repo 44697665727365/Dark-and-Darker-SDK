@@ -1,0 +1,25 @@
+#pragma once 
+#include <SDK_Engine_Objects.h> 
+ 
+ 
+// Function GA_SkeletonFootmanFakeDeath.GA_SkeletonFootmanFakeDeath_C.AbilityActivated
+// Size: 0xB0(Inherited: 0xB0)
+struct FAbilityActivated : FAbilityActivated
+{
+	struct FGameplayEventData TriggerEventData;  // 0x0 (0x0)
+
+
+}; 
+ 
+ // Function GA_SkeletonFootmanFakeDeath.GA_SkeletonFootmanFakeDeath_C.ExecuteUbergraph_GA_SkeletonFootmanFakeDeath
+struct FExecuteUbergraph_GA_SkeletonFootmanFakeDeath
+{
+	int32_t EntryPoint;  // 0x0 (0x0)
+	char pad_4[4];  // 0x4 (0x4)
+	struct FGameplayEventData K2Node_Event_TriggerEventData;  // 0x8 (0x8)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue;  // 0xB8 (0xB8)
+
+
+}; 
+ 
+ 

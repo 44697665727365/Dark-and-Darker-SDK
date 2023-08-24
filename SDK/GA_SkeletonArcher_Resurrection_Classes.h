@@ -1,0 +1,25 @@
+#pragma once 
+#include <GA_SkeletonArcher_Resurrection_Structs.h>
+ 
+ 
+ 
+// BlueprintGeneratedClass GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C
+// Size: 0x588(Inherited: 0x580)
+struct UGA_SkeletonArcher_Resurrection_C : UGA_MonsterGameplayAbilityBase_C
+{
+	struct FPointerToUberGraphFrame UberGraphFrame;  // 0x580 (0x580)
+
+
+	void EventReceived_EE1A77D54863A53E3BBD218F729DD03D(struct FGameplayTag EventTag, struct FGameplayEventData EventData); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.EventReceived_EE1A77D54863A53E3BBD218F729DD03D
+	void OnCancelled_EE1A77D54863A53E3BBD218F729DD03D(struct FGameplayTag EventTag, struct FGameplayEventData EventData); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.OnCancelled_EE1A77D54863A53E3BBD218F729DD03D
+	void OnInterrupted_EE1A77D54863A53E3BBD218F729DD03D(struct FGameplayTag EventTag, struct FGameplayEventData EventData); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.OnInterrupted_EE1A77D54863A53E3BBD218F729DD03D
+	void OnBlendOut_EE1A77D54863A53E3BBD218F729DD03D(struct FGameplayTag EventTag, struct FGameplayEventData EventData); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.OnBlendOut_EE1A77D54863A53E3BBD218F729DD03D
+	void OnCompleted_EE1A77D54863A53E3BBD218F729DD03D(struct FGameplayTag EventTag, struct FGameplayEventData EventData); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.OnCompleted_EE1A77D54863A53E3BBD218F729DD03D
+	void K2_OnEndAbility(bool bWasCancelled); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.K2_OnEndAbility
+	void AbilityActivated(struct FGameplayEventData TriggerEventData); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.AbilityActivated
+	void ExecuteUbergraph_GA_SkeletonArcher_Resurrection(int32_t EntryPoint); // Function GA_SkeletonArcher_Resurrection.GA_SkeletonArcher_Resurrection_C.ExecuteUbergraph_GA_SkeletonArcher_Resurrection
+}; 
+ 
+ 
+
+

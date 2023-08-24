@@ -1,0 +1,5 @@
+NamePoolData : 48 8D 05 ? ? ? ? EB 13 [DungeonCrawler.exe+0x7968D00]
+FUObjectArray : 48 8B 05 ? ? ? ? 48 8B 0C C8 48 8D 04 D1 EB [DungeonCrawler.exe+0x7A08690]
+UWorldProxy : 48 8B 05 ? ? ? ? EB 05 [DungeonCrawler.exe+0x7B767D0]
+ProcessEvent : 40 55 56 57 41 54 41 55 41 56 41 57 48 81 EC 10 [DungeonCrawler.exe+0x2690110]
+ProcessEvent Index : 0x4C

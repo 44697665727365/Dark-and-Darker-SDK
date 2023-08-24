@@ -1,0 +1,170 @@
+#pragma once 
+#include <SDK_Engine_Objects.h> 
+ 
+ 
+// Function GA_DeathSkull_Attack_Nightmare.GA_DeathSkull_Attack_Nightmare_C.AbilityActivated
+// Size: 0xB0(Inherited: 0xB0)
+struct FAbilityActivated : FAbilityActivated
+{
+	struct FGameplayEventData TriggerEventData;  // 0x0 (0x0)
+
+
+}; 
+ 
+ // Function GA_DeathSkull_Attack_Nightmare.GA_DeathSkull_Attack_Nightmare_C.ExecuteUbergraph_GA_DeathSkull_Attack_Nightmare
+struct FExecuteUbergraph_GA_DeathSkull_Attack_Nightmare
+{
+	int32_t EntryPoint;  // 0x0 (0x0)
+	char pad_4[4];  // 0x4 (0x4)
+	double CallFunc_GetWorldDeltaSeconds_ReturnValue;  // 0x8 (0x8)
+	char pad_16_1 : 7;  // 0x10 (0x10)
+	bool K2Node_Event_bWasCancelled : 1;  // 0x10 (0x10)
+	char pad_17_1 : 7;  // 0x11 (0x11)
+	bool CallFunc_GreaterEqual_DoubleDouble_ReturnValue : 1;  // 0x11 (0x11)
+	char pad_18_1 : 7;  // 0x12 (0x12)
+	bool CallFunc_LessEqual_DoubleDouble_ReturnValue : 1;  // 0x12 (0x12)
+	char pad_19[5];  // 0x13 (0x13)
+	double CallFunc_GetWorldDeltaSeconds_ReturnValue_2;  // 0x18 (0x18)
+	char pad_32_1 : 7;  // 0x20 (0x20)
+	bool CallFunc_BooleanOR_ReturnValue : 1;  // 0x20 (0x20)
+	char pad_33[7];  // 0x21 (0x21)
+	struct TScriptInterface<IGameplayTagAssetInterface> CallFunc_HasMatchingGameplayTag_self_CastInput;  // 0x28 (0x28)
+	char pad_56_1 : 7;  // 0x38 (0x38)
+	bool CallFunc_HasMatchingGameplayTag_ReturnValue : 1;  // 0x38 (0x38)
+	char pad_57[3];  // 0x39 (0x39)
+	struct FDelegate K2Node_CreateDelegate_OutputDelegate;  // 0x3C (0x3C)
+	char pad_76[4];  // 0x4C (0x4C)
+	struct FTimerHandle CallFunc_K2_SetTimerDelegate_ReturnValue;  // 0x50 (0x50)
+	char pad_88_1 : 7;  // 0x58 (0x58)
+	bool CallFunc_EqualEqual_IntInt_ReturnValue : 1;  // 0x58 (0x58)
+	char pad_89_1 : 7;  // 0x59 (0x59)
+	bool CallFunc_IsValid_ReturnValue : 1;  // 0x59 (0x59)
+	char pad_90[6];  // 0x5A (0x5A)
+	struct FVector CallFunc_K2_GetActorLocation_ReturnValue;  // 0x60 (0x60)
+	double CallFunc_BreakVector_X;  // 0x78 (0x78)
+	double CallFunc_BreakVector_Y;  // 0x80 (0x80)
+	double CallFunc_BreakVector_Z;  // 0x88 (0x88)
+	char pad_144_1 : 7;  // 0x90 (0x90)
+	bool CallFunc_EqualEqual_IntInt_ReturnValue_2 : 1;  // 0x90 (0x90)
+	char pad_145[7];  // 0x91 (0x91)
+	struct FVector CallFunc_MakeVector_ReturnValue;  // 0x98 (0x98)
+	int32_t CallFunc_Add_IntInt_ReturnValue;  // 0xB0 (0xB0)
+	char pad_180[4];  // 0xB4 (0xB4)
+	double CallFunc_Ease_ReturnValue;  // 0xB8 (0xB8)
+	double CallFunc_Divide_DoubleDouble_ReturnValue;  // 0xC0 (0xC0)
+	double CallFunc_Subtract_DoubleDouble_ReturnValue;  // 0xC8 (0xC8)
+	struct FDelegate K2Node_CreateDelegate_OutputDelegate_2;  // 0xD0 (0xD0)
+	double CallFunc_FClamp_ReturnValue;  // 0xE0 (0xE0)
+	struct UPawnMovementComponent* CallFunc_GetMovementComponent_ReturnValue;  // 0xE8 (0xE8)
+	float CallFunc_GetMaxSpeed_ReturnValue;  // 0xF0 (0xF0)
+	char pad_244[4];  // 0xF4 (0xF4)
+	double CallFunc_GetWorldDeltaSeconds_ReturnValue_3;  // 0xF8 (0xF8)
+	double CallFunc_Multiply_DoubleDouble_ReturnValue;  // 0x100 (0x100)
+	double CallFunc_Multiply_DoubleDouble_ReturnValue_2;  // 0x108 (0x108)
+	struct FVector CallFunc_Conv_DoubleToVector_ReturnValue;  // 0x110 (0x110)
+	struct FVector CallFunc_Multiply_VectorVector_ReturnValue;  // 0x128 (0x128)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue;  // 0x140 (0x140)
+	double CallFunc_VSize_ReturnValue;  // 0x148 (0x148)
+	struct FRotator CallFunc_K2_GetActorRotation_ReturnValue;  // 0x150 (0x150)
+	double CallFunc_Subtract_DoubleDouble_ReturnValue_2;  // 0x168 (0x168)
+	struct FVector CallFunc_K2_GetActorLocation_ReturnValue_2;  // 0x170 (0x170)
+	double CallFunc_BreakVector_X_2;  // 0x188 (0x188)
+	double CallFunc_BreakVector_Y_2;  // 0x190 (0x190)
+	double CallFunc_BreakVector_Z_2;  // 0x198 (0x198)
+	double CallFunc_GetWorldDeltaSeconds_ReturnValue_4;  // 0x1A0 (0x1A0)
+	struct FVector CallFunc_MakeVector_ReturnValue_2;  // 0x1A8 (0x1A8)
+	struct FRotator CallFunc_FindLookAtRotation_ReturnValue;  // 0x1C0 (0x1C0)
+	char pad_472_1 : 7;  // 0x1D8 (0x1D8)
+	bool CallFunc_IsValid_ReturnValue_2 : 1;  // 0x1D8 (0x1D8)
+	char pad_473[7];  // 0x1D9 (0x1D9)
+	struct FRotator CallFunc_RInterpTo_ReturnValue;  // 0x1E0 (0x1E0)
+	char pad_504_1 : 7;  // 0x1F8 (0x1F8)
+	bool CallFunc_K2_SetActorRotation_ReturnValue : 1;  // 0x1F8 (0x1F8)
+	char pad_505[7];  // 0x1F9 (0x1F9)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue_2;  // 0x200 (0x200)
+	struct UAbilityTask_WaitDelay* CallFunc_WaitDelay_ReturnValue;  // 0x208 (0x208)
+	char pad_528_1 : 7;  // 0x210 (0x210)
+	bool CallFunc_IsValid_ReturnValue_3 : 1;  // 0x210 (0x210)
+	char pad_529[7];  // 0x211 (0x211)
+	struct FGameplayEventData K2Node_Event_TriggerEventData;  // 0x218 (0x218)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue_3;  // 0x2C8 (0x2C8)
+	struct FDelegate K2Node_CreateDelegate_OutputDelegate_3;  // 0x2D0 (0x2D0)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue_4;  // 0x2E0 (0x2E0)
+	struct ABP_DeathSkull_Common_C* K2Node_DynamicCast_AsBP_Death_Skull_Common;  // 0x2E8 (0x2E8)
+	char pad_752_1 : 7;  // 0x2F0 (0x2F0)
+	bool K2Node_DynamicCast_bSuccess : 1;  // 0x2F0 (0x2F0)
+	char pad_753[3];  // 0x2F1 (0x2F1)
+	struct FName CallFunc_MakeLiteralName_ReturnValue;  // 0x2F4 (0x2F4)
+	char pad_764[4];  // 0x2FC (0x2FC)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue_5;  // 0x300 (0x300)
+	struct TArray<struct FPrimaryAssetId> K2Node_MakeArray_Array;  // 0x308 (0x308)
+	struct UBlackboardComponent* CallFunc_GetBlackboard_ReturnValue;  // 0x318 (0x318)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue_6;  // 0x320 (00062)
+	struct UObject* CallFunc_GetValueAsObject_ReturnValue;  // 0x328 (0x328)
+	struct TArray<struct FActiveGameplayEffectHandle> CallFunc_ApplyGameplayEffectByIds_ReturnValue;  // 0x330 (0x330)
+	struct ADCCharacterBase* K2Node_DynamicCast_AsDCCharacter_Base;  // 0x340 (0x340)
+	char pad_840_1 : 7;  // 0x348 (0x348)
+	bool K2Node_DynamicCast_bSuccess_2 : 1;  // 0x348 (0x348)
+	char pad_841[7];  // 0x349 (0x349)
+	struct UAbilityTask_WaitDelay* CallFunc_WaitDelay_ReturnValue_2;  // 0x350 (0x350)
+	char pad_856_1 : 7;  // 0x358 (0x358)
+	bool CallFunc_IsValid_ReturnValue_4 : 1;  // 0x358 (0x358)
+	char pad_857[7];  // 0x359 (0x359)
+	struct FVector CallFunc_K2_GetActorLocation_ReturnValue_3;  // 0x360 (0x360)
+	struct AActor* CallFunc_GetAvatarActorFromActorInfo_ReturnValue_7;  // 0x378 (0x378)
+	struct FGameplayCueParameters CallFunc_MakeGameplayCueParameters_ReturnValue;  // 0x380 (0x380)
+	struct FDelegate K2Node_CreateDelegate_OutputDelegate_4;  // 0x458 (0x458)
+	double CallFunc_GetWorldDeltaSeconds_ReturnValue_5;  // 0x468 (0x468)
+	int32_t Temp_int_Variable;  // 0x470 (0x470)
+	char pad_1140[4];  // 0x474 (0x474)
+	struct FTimerHandle CallFunc_K2_SetTimerDelegate_ReturnValue_2;  // 0x478 (0x478)
+	struct FDelegate K2Node_CreateDelegate_OutputDelegate_5;  // 0x480 (0x480)
+	struct FTimerHandle CallFunc_K2_SetTimerDelegate_ReturnValue_3;  // 0x490 (0x490)
+	float CallFunc_K2_SetTimerDelegate_Time_ImplicitCast;  // 0x498 (0x498)
+	float CallFunc_K2_SetTimerDelegate_Time_ImplicitCast_2;  // 0x49C (0x49C)
+	float CallFunc_AddMovementInput_ScaleValue_ImplicitCast;  // 0x4A0 (0x4A0)
+	char pad_1188[4];  // 0x4A4 (0x4A4)
+	double CallFunc_Multiply_DoubleDouble_A_ImplicitCast;  // 0x4A8 (0x4A8)
+	float CallFunc_RInterpTo_DeltaTime_ImplicitCast;  // 0x4B0 (0x4B0)
+	float CallFunc_K2_SetTimerDelegate_Time_ImplicitCast_3;  // 0x4B4 (0x4B4)
+
+
+}; 
+ 
+ // Function GA_DeathSkull_Attack_Nightmare.GA_DeathSkull_Attack_Nightmare_C.Find Target Position
+struct FFind Target Position
+{
+	struct FVector CallFunc_K2_GetActorLocation_ReturnValue;  // 0x0 (0x0)
+	struct FVector CallFunc_K2_GetActorLocation_ReturnValue_2;  // 0x18 (0x18)
+	struct FVector CallFunc_K2_GetActorLocation_ReturnValue_3;  // 0x30 (0x30)
+	struct FVector CallFunc_Subtract_VectorVector_ReturnValue;  // 0x48 (0x48)
+	struct FVector CallFunc_Normal_ReturnValue;  // 0x60 (0x60)
+	struct FVector CallFunc_K2_GetActorLocation_ReturnValue_4;  // 0x78 (0x78)
+	struct FVector CallFunc_Multiply_VectorFloat_ReturnValue;  // 0x90 (0x90)
+	double CallFunc_Vector_Distance_ReturnValue;  // 0xA8 (0xA8)
+	struct FVector CallFunc_Add_VectorVector_ReturnValue;  // 0000 (000034560] Package Id_ItemRequirement_HuntingTrap_2002 roperty/ItemPropertyType/Id_ItemPropertyType_Effect_ProjectileReductionMod)
+	double CallFunc_Add_DoubleDouble_ReturnValue;  // 0xC8 (0xC8)
+	struct FVector CallFunc_GetHitBoxLocation_Location;  // 0xD0 (0xD0)
+	char pad_232_1 : 7;  // 0xE8 (0xE8)
+	bool CallFunc_GetHitBoxLocation_ReturnValue : 1;  // 0xE8 (0xE8)
+	char pad_233[7];  // 0xE9 (0xE9)
+	double CallFunc_BreakVector_X;  // 0xF0 (0xF0)
+	double CallFunc_BreakVector_Y;  // 0xF8 (0xF8)
+	double CallFunc_BreakVector_Z;  // 0x100 (0x100)
+	double CallFunc_Subtract_DoubleDouble_ReturnValue;  // 0x108 (0x108)
+	struct FVector CallFunc_MakeVector_ReturnValue;  // 0x110 (0x110)
+
+
+}; 
+ 
+ // Function GA_DeathSkull_Attack_Nightmare.GA_DeathSkull_Attack_Nightmare_C.K2_OnEndAbility
+// Size: 0x1(Inherited: 0x1)
+struct FK2_OnEndAbility : FK2_OnEndAbility
+{
+	char pad_1_1 : 7;  // 0x1 (0x1)
+	bool bWasCancelled : 1;  // 0x0 (0x0)
+
+
+}; 
+ 
+ 

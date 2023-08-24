@@ -1,0 +1,59 @@
+#pragma once 
+#include <WB_MenuOptionsControls_Structs.h>
+ 
+ 
+ 
+// WidgetBlueprintGeneratedClass WB_MenuOptionsControls.WB_MenuOptionsControls_C
+// Size: 0x588(Inherited: 0x4F8)
+struct UWB_MenuOptionsControls_C : UGameMenuOptionsControlsWidget
+{
+	struct FPointerToUberGraphFrame UberGraphFrame;  // 0x4F8 (0x4F8)
+	struct UButton* Btn_Language;  // 0x500 (0x500)
+	struct UImage* Img_English;  // 0x508 (0x508)
+	struct UImage* Img_Japanese;  // 0x510 (0x510)
+	struct UImage* Img_Korean;  // 0x518 (0x518)
+	struct UImage* Img_SimplifiedChinese;  // 0x520 (0x520)
+	struct UImage* Img_TraditionalChinese;  // 0x528 (0x528)
+	struct UWidgetSwitcher* Switcher_Language;  // 0x530 (0x530)
+	struct UTextBlock* Txt_English;  // 0x538 (0x538)
+	struct UTextBlock* Txt_Japanese;  // 0x540 (0x540)
+	struct UTextBlock* Txt_Korean;  // 0x548 (0x548)
+	struct UTextBlock* Txt_SimplifiedChinese;  // 0x550 (0x550)
+	struct UTextBlock* Txt_TraditionalChinese;  // 0x558 (0x558)
+	struct UWB_MenuOptionSlot_Slider_C* MouseSenitivity;  // 0x560 (0x560)
+	struct UWB_MenuOptionToggleSwitchSlot_C* InvertMouseHorizontalAxis;  // 0x568 (0x568)
+	struct UWB_MenuOptionToggleSwitchSlot_C* InvertMouseVerticalAxis;  // 0x570 (0x570)
+	struct UWB_MenuOptionToggleSwitchSlot_C* StreamingMode;  // 0x578 (0x578)
+	struct UWB_MenuOptionToggleSwitchSlot_C* AutoFillUtilitySlot;  // 0x580 (0x580)
+
+
+	struct UWidget* DoCustomNavigation_Language(uint8_t Navigation); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.DoCustomNavigation_Language
+	struct UWidget* BP_GetDesiredFocusTarget(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BP_GetDesiredFocusTarget
+	void OnOptionWidgetHovered(struct UWidgetSwitcher* Btn Switcher); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnOptionWidgetHovered
+	void InitOptionWidgetBinding(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.InitOptionWidgetBinding
+	void Construct(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.Construct
+	void OnGameUserSettingControls(struct FGameUserSettingControls& NewValue, struct FGameUserSettingControls& OldValue); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnGameUserSettingControls
+	void BndEvt__WB_MenuOptionsControls_Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_EnglishButton_K2Node_ComponentBoundEvent_16_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_EnglishButton_K2Node_ComponentBoundEvent_16_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_KoreanButton_K2Node_ComponentBoundEvent_17_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_KoreanButton_K2Node_ComponentBoundEvent_17_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_EnglishButton_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_EnglishButton_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_KoreanButton_K2Node_ComponentBoundEvent_21_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_KoreanButton_K2Node_ComponentBoundEvent_21_OnButtonHoverEvent__DelegateSignature
+	void UpdateCultureButton(struct FString culture); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.UpdateCultureButton
+	void OnMouseSenitivityHovered(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnMouseSenitivityHovered
+	void OnInvertMouseHorizontalAxisHovered(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnInvertMouseHorizontalAxisHovered
+	void OnInvertMouseVerticalHovered(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnInvertMouseVerticalHovered
+	void OnStreamingModeHovered(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnStreamingModeHovered
+	void BndEvt__WB_MenuOptionsControls_JapaneseButton_K2Node_ComponentBoundEvent_15_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_JapaneseButton_K2Node_ComponentBoundEvent_15_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_JapaneseButton_K2Node_ComponentBoundEvent_18_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_JapaneseButton_K2Node_ComponentBoundEvent_18_OnButtonHoverEvent__DelegateSignature
+	void OnSliderHovered(struct UWB_MenuOptionSlot_Slider_C* Slider); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnSliderHovered
+	void OnAutoFillUtilitySlotHovered(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.OnAutoFillUtilitySlotHovered
+	void BndEvt__WB_MenuOptionsControls_TraditionalChineseButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_TraditionalChineseButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_TraditionalChineseButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_TraditionalChineseButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_SimplifiedChineseButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_SimplifiedChineseButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature
+	void BndEvt__WB_MenuOptionsControls_SimplifiedChineseButton_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature(); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.BndEvt__WB_MenuOptionsControls_SimplifiedChineseButton_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature
+	void ExecuteUbergraph_WB_MenuOptionsControls(int32_t EntryPoint); // Function WB_MenuOptionsControls.WB_MenuOptionsControls_C.ExecuteUbergraph_WB_MenuOptionsControls
+}; 
+ 
+ 
+
+
